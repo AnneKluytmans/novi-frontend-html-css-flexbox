@@ -1,1 +1,78 @@
-/*Schrijf hier jouw CSS*/
+/*///////////////// - Opdracht 1 - ///////////////////////1*/
+
+.opdracht-1 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*///////////////// - Opdracht 2 - ///////////////////////1*/
+
+.opdracht-2 .flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-2 .container-item {
+    flex-basis: 300px;
+}
+
+
+/*///////////////// - Opdracht 3 - ///////////////////////1*/
+
+.opdracht-3 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-3 .top-left-item {
+    align-self: flex-start;
+}
+
+.opdracht-3 .centered-item {
+    align-self: center;
+}
+
+.opdracht-3 .bottom-item {
+    align-self: flex-end;
+}
+
+
+/*///////////////// - Opdracht 4 - ///////////////////////1*/
+
+.opdracht-4 .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/*///////////////// - Opdracht 5 - ///////////////////////1*/
+
+.opdracht-5 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-5 .flex-column {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opdracht-5 .column-one {
+    align-items: flex-start;
+}
+
+.opdracht-5 .column-two {
+    align-items: center;
+}
+
+.opdracht-5 .column-three {
+    align-items: flex-end;
+}
