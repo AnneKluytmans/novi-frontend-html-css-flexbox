@@ -1,1 +1,104 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;600&family=Open+Sans:wght@300..800&display=swap');
+
+/* Kleuren: blauw (#030027) geel (#F2F3D9) en old rose (#C16E70)*/
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Navigation (opdracht 3.2)
+        3.2 Business-information section (opdracht 3.1)
+////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F3D9;
+    min-height: 100vh;
+    color: #030027;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+}
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+h1, h3 {
+    font-family: "Kodchasan", Arial, sans-serif;
+    font-weight: 600;
+}
+
+.company-name {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+/*///////////// 3.1 Navigation (opdracht 3.2) /////////////*/
+
+.navigation {
+    background-color: #030027;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.navigation ul {
+    list-style: none;
+
+    flex-basis: 500px;
+    flex-shrink: 1;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*///////////// 3.2 Business information (opdracht 3.1) /////////////*/
+
+.business-information-section {
+    padding: 40px;
+}
+
+.business-information-section .inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.business-information-section .info-article {
+    background-color: #C16E70;
+    border-radius: 5px;
+    height: 320px;
+    padding: 30px;
+    margin: 30px;
+
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
