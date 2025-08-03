@@ -85,15 +85,7 @@ This repository contains my solutions to a Flexbox assignment for the Frontend D
 
 ## Project Setup
 
-Clone the repository in an IDE and run `index.html` from part 1, 2 or 3 in your browser:
-
-```bash
-git@github.com:AnneKluytmans/novi-homework-frontend-html-css-flexbox.git
-```
-or
-```bash
-git clone https://github.com/AnneKluytmans/novi-homework-frontend-html-css-flexbox.git
-```
+Clone the repository in an IDE and run `index.html` from part 1, 2 or 3 in your browser.
 
 ## Credits
 > "Assignment  design, layout structure, and all base materials provided through NOVI University course materials."
